@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Links para minhas contas" />
+  <meta name="author" content="Leonardo Dalvi Alvarenga" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+  <title>Links | Leonardo Dalvi Alvarenga</title>
+
+</head>
+
+<body>
+
+  <main>
+    <!--Background de Partículas-->
+    <div id="particles-js"></div>
+    <div class="gradient-overlay"></div>
+
+    <div class="container">
+      <div class="text-center m-5">
+        <!-- Foto -->
+        <img src="assets/img/leo.jpg" class="m-3" alt="image" width="96px" height="96px" />
+        <div class="m-2">
+          <!-- Nome -->
+          <h4 class="mt-2 text-center">Leonardo Dalvi Alvarenga</h4>
+          <!-- Descrição -->
+          <p>Cientista de Dados, Desenvolvedor Web e Advogado Tributarista, de Inovação e Startups</p>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <a href="http://api.whatsapp.com/send?phone=55%2027981111074" class="btn btn-outline-light btn-block" role="button" target="_blank">FALE COMIGO</a>
+      </div>
+
+      <div class="mt-5 mb-3 text-center">
+        <!-- Me Contrate -->
+        <h6>ME CONTRATE</h6>
+      </div>
+
+      <div class="mt-4">
+        <a href="https://www.alvarengaadvocacia.com" class="btn btn-outline-light btn-block" role="button" target="_blank">Alvarenga Advocacia e Consultoria</a>
+        <br />
+        <a href="https://forms.way2b.com.br/index.php/812791?lang=pt-BR" class="btn btn-outline-light btn-block" role="button" target="_blank">Implementação de LGPD</a>
+        <br />
+        <a href="https://way2b.com.br/pesquisa-de-viabilidade-de-marca" class="btn btn-outline-light btn-block" role="button" target="_blank">Registro de Marca</a>
+        <br />
+        <a href="https://leonardodalvi.dev.br" class="btn btn-outline-light btn-block" role="button" target="_blank">Desenvolvimento Web</a>
+      </div>
+
+      <div class="mt-5 mb-3 text-center">
+        <!-- Minhas Redes Sociais -->
+        <h6>MINHAS REDES SOCIAIS</h6>
+      </div>
+
+      <div class="mt-4">
+        <a href="https://www.linkedin.com/in/leonardodalvi" class="btn btn-outline-light btn-block" role="button" target="_blank"><i class="fab fa-linkedin">&nbsp;</i>Linkedin</a>
+        <br />
+        <a href="https://github.com/leonardodalvi" class="btn btn-outline-light btn-block" role="button" target="_blank"><i class="fab fa-github">&nbsp;</i>Github</a>
+        <br />
+        <a href="https://www.instagram.com/leonardodalvi" class="btn btn-outline-light btn-block" role="button" target="_blank"><i class="fab fa-instagram">&nbsp;</i>Instagram</a>
+        <br />
+        <a href="https://www.facebook.com/leonardodalvi" class="btn btn-outline-light btn-block" role="button" target="_blank"><i class="fab fa-facebook">&nbsp;</i>Facebook</a>
+        <br />
+        <a href="https://twitter.com/leonardodalvi" class="btn btn-outline-light btn-block" role="button" target="_blank"><i class="fab fa-twitter">&nbsp;</i>Twitter</a>
+      </div>
+      </div>
+    </div>
+  </main>
+
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<script type="text/javascript">
+particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+</script>
+
+</body>
+
+</html>
