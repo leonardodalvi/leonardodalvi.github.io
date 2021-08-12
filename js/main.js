@@ -345,6 +345,9 @@
 
     };
 
+
+    /* Contact Form
+     * ------------------------------------------------------ */
     var form = document.getElementById("contactForm");
     
     async function handleSubmit(event) {
@@ -365,8 +368,6 @@
       });
     }
     form.addEventListener("submit", handleSubmit)
-
-    
 
 
    /* Back to Top
